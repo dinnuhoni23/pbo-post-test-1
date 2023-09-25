@@ -13,11 +13,11 @@ import java.util.ArrayList;
 public class Posttest1 {
 
     public static void main(String[] args) {
-        Car car1 = new Car("Toyota", "Camry", 2022, 25000);
-        Car car2 = new Car("Toyota", "Camry", 2022, 25000);
-        Car car3 = new Car("Toyota", "Camry", 2022, 25000);
-        Car car4 = new Car("Toyota", "Camry", 2022, 25000);
-        Car car5 = new Car("Toyota", "Camry", 2022, 25000);
+        Car car1 = new Car("Lexus", "LC 500", 2023, 1500000000);
+        Car car2 = new Car("Lexus", "LS 500", 2023, 1800000000);
+        Car car3 = new Car("Lexus", "RX 500", 2023, 2000000000);
+        Car car4 = new Car("Lexus", "LM 4ST", 2023, 1900000000);
+        Car car5 = new Car("Lexus", "LX 600", 2023, 2100000000);
         
         ArrayList<Car> cars = new ArrayList<>();
         cars.add(car1);
